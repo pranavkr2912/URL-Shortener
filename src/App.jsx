@@ -1,4 +1,5 @@
 import { useState } from "react";
+const API_BASE = "https://url-shortener-backend-lauc.onrender.com";
 
 function App() {
   const [longUrl, setLongUrl] = useState("");
